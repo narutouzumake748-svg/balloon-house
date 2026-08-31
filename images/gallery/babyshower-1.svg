@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgb1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+    <radialGradient id="p1" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFD9E8"/><stop offset="100%" stop-color="#F48FB1"/></radialGradient>
+    <radialGradient id="p2" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#D6F0FF"/><stop offset="100%" stop-color="#81D4FA"/></radialGradient>
+    <radialGradient id="p3" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="100%" stop-color="#FFF59D"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgb1)"/>
+  <line x1="220" y1="330" x2="200" y2="480" stroke="#CBB8D6" stroke-width="2"/>
+  <line x1="330" y1="360" x2="320" y2="500" stroke="#CBB8D6" stroke-width="2"/>
+  <line x1="440" y1="340" x2="450" y2="490" stroke="#CBB8D6" stroke-width="2"/>
+  <line x1="540" y1="360" x2="560" y2="500" stroke="#CBB8D6" stroke-width="2"/>
+  <line x1="620" y1="330" x2="640" y2="480" stroke="#CBB8D6" stroke-width="2"/>
+  <ellipse cx="220" cy="260" rx="75" ry="95" fill="url(#p1)"/>
+  <ellipse cx="330" cy="290" rx="80" ry="100" fill="url(#p2)"/>
+  <ellipse cx="440" cy="255" rx="78" ry="98" fill="url(#p3)"/>
+  <ellipse cx="540" cy="290" rx="75" ry="95" fill="url(#p1)"/>
+  <ellipse cx="620" cy="260" rx="72" ry="92" fill="url(#p2)"/>
+  <text x="400" y="560" font-family="Poppins, Arial, sans-serif" font-size="22" fill="#8B7B95" text-anchor="middle" opacity="0.7">Sample Photo — Baby Shower Balloon Arch</text>
+</svg>

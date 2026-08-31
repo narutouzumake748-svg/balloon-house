@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balloon House — Balloon Decoration for Every Celebration</title>
+  <meta name="description" content="Balloon House creates custom balloon decor for birthdays, weddings, corporate events and baby showers. Get a free custom quote.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%88%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">🎈 Balloon House</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Turning Every Event Into a Colorful Celebration</h1>
+      <p>Custom balloon decor for birthdays, weddings, corporate events, baby showers &amp; more.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#gallery" class="btn btn-secondary">View Our Work</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title">Our Work</h2>
+      <p class="section-subtitle">A look at some of our past celebrations. Every setup is designed around the client's theme and space.</p>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="birthday">Birthdays</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+        <button class="filter-btn" data-filter="babyshower">Baby Showers</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <section id="instagram" class="instagram-section">
+    <div class="container">
+      <h2 class="section-title">Latest from Instagram</h2>
+      <p class="section-subtitle">Follow <a id="instaFollowLink" target="_blank" rel="noopener"></a> to see new work as soon as it's posted.</p>
+      <div class="instagram-embed-wrapper" id="instagramEmbed">
+        <!--
+          To show live Instagram posts here automatically, sign up for a free
+          embed widget (see HOW-TO-UPDATE.md for options), then paste the
+          embed code the widget gives you in place of the placeholder div below.
+        -->
+        <div class="instagram-placeholder">
+          <p>📷 Instagram feed will appear here</p>
+          <a id="instaPlaceholderLink" target="_blank" rel="noopener" class="btn btn-secondary">View on Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container about-content">
+      <h2 class="section-title">About Balloon House</h2>
+      <p>
+        Balloon House began with hands-on experience creating balloon decor for events in Singapore —
+        from intimate birthday celebrations to large corporate gatherings. That same eye for color,
+        theme, and detail now brings custom balloon decorations to celebrations closer to home.
+      </p>
+      <p>Every setup is planned around your event, your space, and your theme — no two are the same.</p>
+      <div class="location-badge">📍 Currently serving: <span id="locationValue"></span></div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="emoji">🎈</div>
+          <h3>Balloon Arches</h3>
+          <p>Statement entrance and stage arches for any theme.</p>
+        </div>
+        <div class="service-card">
+          <div class="emoji">💐</div>
+          <h3>Balloon Bouquets</h3>
+          <p>Elegant clusters for tables, gifts, and photo spots.</p>
+        </div>
+        <div class="service-card">
+          <div class="emoji">🖼️</div>
+          <h3>Backdrops &amp; Walls</h3>
+          <p>Custom balloon walls designed as your photo backdrop.</p>
+        </div>
+        <div class="service-card">
+          <div class="emoji">🏢</div>
+          <h3>Corporate Events</h3>
+          <p>Branded, professional decor for launches and offsites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Let's Plan Your Event</h2>
+      <p class="section-subtitle">Every event is unique, so pricing is customized to your requirements — reach out for a free quote.</p>
+
+      <div class="contact-buttons">
+        <a class="contact-card" id="whatsappLink" target="_blank" rel="noopener"><span class="emoji">💬</span> WhatsApp</a>
+        <a class="contact-card" id="callLink"><span class="emoji">📞</span> Call</a>
+        <a class="contact-card" id="instaLink" target="_blank" rel="noopener"><span class="emoji">📷</span> Instagram DM</a>
+        <a class="contact-card" id="emailLink"><span class="emoji">✉️</span> Email</a>
+      </div>
+
+      <form class="inquiry-form" id="inquiryForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="eventType">Event Type</label>
+          <select id="eventType">
+            <option>Birthday</option>
+            <option>Wedding</option>
+            <option>Corporate Event</option>
+            <option>Baby Shower</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="eventDate">Event Date</label>
+          <input type="date" id="eventDate">
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us about your event</label>
+          <textarea id="message" placeholder="Venue, theme, colors, number of guests..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-whatsapp">Send Inquiry via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img id="lightboxImg" src="" alt="Enlarged gallery photo">
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="logo" style="margin-bottom: 16px;">🎈 Balloon House</div>
+      <div class="footer-social">
+        <a id="footerInsta" target="_blank" rel="noopener" title="Instagram">📷</a>
+        <a id="footerWhatsapp" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+        <a id="footerEmail" title="Email">✉️</a>
+      </div>
+      <p id="footerLocation">📍 Serving</p>
+      <p class="footer-note">&copy; <span id="year"></span> Balloon House. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; });
+        }
+      });
+    }
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

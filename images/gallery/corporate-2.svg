@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgc2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ECEFF1"/>
+      <stop offset="100%" stop-color="#CFD8DC"/>
+    </linearGradient>
+    <radialGradient id="m1" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#B3E5FC"/><stop offset="100%" stop-color="#0288D1"/></radialGradient>
+    <radialGradient id="m2" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#B0BEC5"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgc2)"/>
+  <g opacity="0.95">
+    <circle cx="180" cy="200" r="60" fill="url(#m1)"/>
+    <circle cx="290" cy="180" r="50" fill="url(#m2)"/>
+    <circle cx="380" cy="230" r="65" fill="url(#m1)"/>
+    <circle cx="480" cy="190" r="55" fill="url(#m2)"/>
+    <circle cx="580" cy="220" r="60" fill="url(#m1)"/>
+    <circle cx="230" cy="310" r="55" fill="url(#m2)"/>
+    <circle cx="340" cy="330" r="60" fill="url(#m1)"/>
+    <circle cx="450" cy="320" r="58" fill="url(#m2)"/>
+    <circle cx="550" cy="330" r="52" fill="url(#m1)"/>
+  </g>
+  <text x="400" y="560" font-family="Poppins, Arial, sans-serif" font-size="22" fill="#455A64" text-anchor="middle" opacity="0.7">Sample Photo — Corporate Balloon Backdrop</text>
+</svg>

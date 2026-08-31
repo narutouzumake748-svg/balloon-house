@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "src": "/images/gallery/birthday-1.svg", "alt": "Birthday balloon arch decoration", "category": "birthday" },
+    { "src": "/images/gallery/birthday-2.svg", "alt": "Birthday balloon columns decoration", "category": "birthday" },
+    { "src": "/images/gallery/wedding-1.svg", "alt": "Wedding balloon arch decoration", "category": "wedding" },
+    { "src": "/images/gallery/wedding-2.svg", "alt": "Wedding balloon bouquet decoration", "category": "wedding" },
+    { "src": "/images/gallery/corporate-1.svg", "alt": "Corporate event balloon columns", "category": "corporate" },
+    { "src": "/images/gallery/corporate-2.svg", "alt": "Corporate event balloon backdrop", "category": "corporate" },
+    { "src": "/images/gallery/babyshower-1.svg", "alt": "Baby shower balloon arch decoration", "category": "babyshower" },
+    { "src": "/images/gallery/babyshower-2.svg", "alt": "Baby shower balloon bouquet decoration", "category": "babyshower" }
+  ]
+}

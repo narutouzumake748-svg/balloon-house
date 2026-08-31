@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgw2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF6EC"/>
+      <stop offset="100%" stop-color="#F0E0C8"/>
+    </linearGradient>
+    <radialGradient id="w4" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#E8DFD0"/></radialGradient>
+    <radialGradient id="w5" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#F6D9C4"/><stop offset="100%" stop-color="#D9A66C"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgw2)"/>
+  <g>
+    <circle cx="330" cy="320" r="70" fill="url(#w4)"/>
+    <circle cx="420" cy="300" r="80" fill="url(#w5)"/>
+    <circle cx="470" cy="360" r="65" fill="url(#w4)"/>
+    <circle cx="380" cy="380" r="55" fill="url(#w5)"/>
+    <circle cx="440" cy="420" r="45" fill="url(#w4)"/>
+  </g>
+  <line x1="400" y1="450" x2="400" y2="520" stroke="#C9B896" stroke-width="3"/>
+  <text x="400" y="560" font-family="Poppins, Arial, sans-serif" font-size="22" fill="#9C8A6B" text-anchor="middle" opacity="0.7">Sample Photo — Wedding Balloon Bouquet</text>
+</svg>
