@@ -1,0 +1,116 @@
+body {
+  background: var(--color-light);
+  padding: 24px 16px 60px;
+}
+
+.admin-wrap {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.admin-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.admin-card {
+  background: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px 28px;
+}
+
+.admin-error {
+  color: #D32F2F;
+  font-size: 0.9rem;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.admin-status {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-top: 12px;
+}
+
+.admin-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 12px;
+}
+
+.admin-topbar span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #F0E8E2;
+}
+
+.admin-tab-btn {
+  padding: 10px 18px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.admin-tab-btn.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.admin-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.admin-gallery-item {
+  background: var(--color-light);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.admin-gallery-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.admin-gallery-meta {
+  padding: 6px 10px 0;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  text-transform: capitalize;
+}
+
+.btn-remove {
+  width: calc(100% - 20px);
+  margin: 8px 10px 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 999px;
+  background: #FDECEA;
+  color: #C62828;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.btn-remove:hover {
+  background: #FADBD8;
+}
